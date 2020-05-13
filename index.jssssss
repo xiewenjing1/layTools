@@ -1,0 +1,10 @@
+export class Tree {
+    constructor() {
+        this.height = 0;
+        this.growTime = 1;
+    }
+    cutHeight() {
+        this.height = this.height + 50;
+        console.log(this.height, 88888);
+    }
+}
